@@ -7,6 +7,7 @@
         ref="search"
         name="search"
         type="search"
+        autofocus
         :value="value"
         @input.stop="search($event.target.value)"
         @keydown.enter.exact.prevent="open()"
